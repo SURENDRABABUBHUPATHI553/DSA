@@ -16,7 +16,7 @@ public class RotateArrayByCW90
 
         for(int i=1; i<arr.length; i++)
         {
-            for(int j=0; j<i; j++)     //Transpose of matrix
+            for(int j=0; j<i; j++)              //Transpose of matrix
             {
                 temp = arr[i][j];
                 arr[i][j] = arr[j][i];
